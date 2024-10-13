@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.counter h1 {
+  color: rgb(115, 115, 115);
+}
+.counter_block {
+  /* margin-top: 50px; */
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  /* background-color: rgb(237, 242, 245); */
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+}
+
+#counter {
+  font-size: 48px;
+  margin: 20px;
+}
+
+button {
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 15px;
+  border: 1px solid rgb(61, 61, 61);
+  cursor: pointer;
+}
+button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#increment {
+  background-color: rgb(26, 224, 36);
+}
+
+#decrement {
+  background-color: rgb(243, 47, 47);
+}
